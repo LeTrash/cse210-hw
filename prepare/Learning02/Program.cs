@@ -13,10 +13,10 @@ class Program
         job1.DisplayJob();
 
         Job job2 = new Job();
-        job1._company = "Microsoft";
-        job1._jobTitle = "HR";
-        job1._startYear = 2002;
-        job1._endYear = 2023;
+        job2._company = "Microsoft";
+        job2._jobTitle = "HR";
+        job2._startYear = 2002;
+        job2._endYear = 2023;
         job2.DisplayJob();
 
         Resume myResume = new Resume();
