@@ -5,7 +5,7 @@ public class Log{
     public string _dateTime;
     public string _response;
     public string[] _prompts ={
-        "Write about the most depressing thing in your life.","Write about loss.","fghj","Go to jail"
+        "Did you talk to someone today and what about?","Did you accomplish anything today?","What were you most proud of today?","What did you eat today?"
     };
 
     public string displayprompt(){
