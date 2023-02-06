@@ -1,7 +1,7 @@
 using System;
 
 public class Log{
-    
+    string fileName = "Journal.txt";
     public string _dateTime;
     public string _response;
     public string[] _prompts ={
@@ -9,16 +9,15 @@ public class Log{
     };
 
     public string displayprompt(){
-    Random rand = new Random();
-    int num= rand.Next(4);
-    string prmt = _prompts[num];
+        Random rand = new Random();
+        int num= rand.Next(4);
+        string prmt = _prompts[num];
 
-    Console.Write("Here is a suggested prompt:");
-    Console.WriteLine(prmt);
-    return prmt;
+        Console.Write("Here is a suggested prompt:");
+        Console.WriteLine(prmt);
+        return prmt;
     }
     
-    string fileName = "Journal.txt";
 
     public void SaveFile(string p){
         using (StreamWriter outputFile = new StreamWriter(fileName, true)){
