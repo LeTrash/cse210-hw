@@ -9,7 +9,7 @@ class Program
         string dateText = theCurrentTime.ToShortDateString();
         int choice;
         string fileName = "Journal.txt";
-
+ 
         do {
             Console.WriteLine("Please select one of the following choices by selecting it's corresponding number");
             Console.WriteLine("1. Write\n2. Display\n3. Load\n4. Save\n5. Quit");
