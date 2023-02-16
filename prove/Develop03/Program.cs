@@ -64,5 +64,5 @@ class Program
                 pog.readToFile(filepath);
             }
         } while (choice != 6);
-    }
+    } 
 }

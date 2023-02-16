@@ -37,18 +37,17 @@ public class Json
         HttpResponseMessage response = await client.GetAsync(filepath);
 
         response.EnsureSuccessStatusCode();
-        Console.WriteLine("bird");
         String responseBody = await response.Content.ReadAsStringAsync();
         JObject json = JObject.Parse(responseBody);
-        Console.WriteLine(json["verses"]);
         foreach (JObject i in json["verses"])
         {
-            foreach (string b in i["references"])
+
+            if ((string)i["reference"] == u_ref)
             {
-                if (b == u_ref)
-                {
-                    Console.WriteLine(b);
-                }
+                List<string> v_text = new List<string>();
+                v_text.Add((string)i["text"]);
+                Console.WriteLine(string.Join(" ", v_text));
+
             }
         }
 
