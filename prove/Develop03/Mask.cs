@@ -7,14 +7,13 @@ public class Mask
 
     public void mask()
     {
-        var random = new Random();
-        List<string> test = new List<string>() { "one", "two", "three", "four" };
-        List<string> modify = new List<string>();
-        modify = test;
-        int index = random.Next(modify.Count);
-        Console.WriteLine(modify[index]);
-        Console.WriteLine("Please write the complete scripture: ");
-
+        Random rand = new Random();
+        int num = rand.Next(4);
     }
 
 }
+
+// int i_num = rand.Next(array.length-1)
+// array[i_num] = "_____"
+// Console.Writeline("array")
+// }

@@ -1,26 +1,10 @@
 using System;
 using System.IO;
+using System.Net.Http;
+using System.Net.Http.Json;
 using System.Text.Json;
-using System.Text.Json.Serialization;
+using Newtonsoft.Json.Linq;
 
-
-//     try{
-//         string path = "https://raw.githubusercontent.com/bcbooks/scriptures-json/master/flat/book-of-mormon-flat.json";
-//         StreamReader r = new StreamReader(path);
-//         var json = r.ReadToEnd();
-//         r.Close();
-//         Console.WriteLine(json + "was read from"+path);
-//     }
-//     catch(FileNotFoundException){
-//         Console.WriteLine("No file with such a name was found!");
-//     }
-//     catch (DirectoryNotFoundException){
-//         Console.WriteLine("Directory doesn't exist!");
-//     }
-//     catch (Exception ex){
-//         Console.WriteLine("Something went wrong..."+ ex.Data);
-//     }
-//     }
 // }
 
 //  "verses": [
@@ -36,12 +20,7 @@ using System.Text.Json.Serialization;
 public class Json
 {
 
-
-    public string verses { get; set; }
-    public string references { get; set; }
-    public string verse { get; set; }
-
-    public void readToFile(string filepath)
+    public async void readToFile(string filepath)
     {
 
         Console.WriteLine("Please enter a heading:");
@@ -51,15 +30,28 @@ public class Json
         Console.WriteLine("Please enter the verse number: ");
         string u_verse = Console.ReadLine();
         string u_ref = u_heading + " " + u_chapt + ":" + u_verse;
+        // Console.WriteLine(filepath);
 
-        StreamReader reader = new StreamReader(filepath);
-        bom = reader.Parse(File.ReadAllText(filepath));
-        while (!reader.EndOfStream || reader.key = u_ref)
+        // StreamReader reader = new StreamReader(filepath);
+        HttpClient client = new HttpClient();
+        HttpResponseMessage response = await client.GetAsync(filepath);
+
+        response.EnsureSuccessStatusCode();
+        Console.WriteLine("bird");
+        String responseBody = await response.Content.ReadAsStringAsync();
+        JObject json = JObject.Parse(responseBody);
+        Console.WriteLine(json["verses"]);
+        foreach (JObject i in json["verses"])
         {
-            string line = reader.ReadLine();
-            Console.WriteLine(line);
+            foreach (string b in i["references"])
+            {
+                if (b == u_ref)
+                {
+                    Console.WriteLine(b);
+                }
+            }
         }
-        reader.Close();
+
 
 
 
@@ -83,3 +75,13 @@ public class Json
 // if (filepath["reference"] == u_ref){
 // string v = filepath["text"];
 // }
+// bom = reader.Parse(File.ReadAllText(filepath));
+// while (!reader.EndOfStream || reader.key = u_ref)
+// {
+//     string line = reader.ReadLine();
+//     Console.WriteLine(line);
+// }
+// reader.Close();
+
+// data['username]
+//foreach(var "reference" in "")
