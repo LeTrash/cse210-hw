@@ -50,7 +50,7 @@ class Program
                 Json dnc = new Json();
                 dnc.readToFile(filepath);
                 Mask mask = new Mask();
-                Thread.Sleep(5000);
+                Thread.Sleep(500);
                 mask.Setphrase(dnc.Getphrase());
                 mask.mask();
 
