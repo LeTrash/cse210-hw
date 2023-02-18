@@ -42,6 +42,7 @@ class Program
                 Mask mask = new Mask();
                 Thread.Sleep(5000);
                 mask.Setphrase(bom.Getphrase());
+                mask.SetRef(bom.Getreff());
                 mask.mask();
             }
             else if (choice == 2)
@@ -50,8 +51,9 @@ class Program
                 Json dnc = new Json();
                 dnc.readToFile(filepath);
                 Mask mask = new Mask();
-                Thread.Sleep(500);
+                Thread.Sleep(5000);
                 mask.Setphrase(dnc.Getphrase());
+                mask.SetRef(dnc.Getreff());
                 mask.mask();
 
             }
@@ -63,6 +65,7 @@ class Program
                 Mask mask = new Mask();
                 Thread.Sleep(5000);
                 mask.Setphrase(nt.Getphrase());
+                mask.SetRef(nt.Getreff());
                 mask.mask();
 
             }
@@ -74,6 +77,7 @@ class Program
                 Mask mask = new Mask();
                 Thread.Sleep(5000);
                 mask.Setphrase(ot.Getphrase());
+                mask.SetRef(ot.Getreff());
                 mask.mask();
 
             }
@@ -85,6 +89,7 @@ class Program
                 Mask mask = new Mask();
                 Thread.Sleep(5000);
                 mask.Setphrase(pog.Getphrase());
+                mask.SetRef(pog.Getreff());
                 mask.mask();
 
             }

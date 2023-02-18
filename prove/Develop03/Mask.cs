@@ -5,7 +5,7 @@ using System;
 
 public class Mask
 {
-
+    private string rf;
     private string ph;
 
     // private int plonk;
@@ -13,6 +13,14 @@ public class Mask
     {
         ph = phrase;
     }
+
+    public void SetRef(string reff)
+    {
+        rf = reff;
+    }
+
+
+
 
     public void mask()
     {
@@ -29,11 +37,8 @@ public class Mask
 
         while (userInput.Key == ConsoleKey.Enter)
         {
-
+            Console.Write($"{rf} ");
             int num = rand.Next((modified.Count));
-
-
-
 
             string beans = "";
             // plonk += 1;
@@ -42,12 +47,11 @@ public class Mask
             {
                 beans += "_";
 
-
             }
             modified[num] = beans;
             foreach (string ob in modified)
             {
-                Console.Write($" {ob}");
+                Console.Write($"{ob} ");
 
             }
 

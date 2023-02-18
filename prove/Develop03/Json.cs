@@ -9,12 +9,22 @@ using Newtonsoft.Json.Linq;
 public class Json
 {
 
-    public string phrase = "hi";
+    public string phrase = "";
+
+    public string reff = "";
 
     public string Getphrase()
     {
         return phrase;
     }
+
+    public string Getreff()
+    {
+        return reff;
+    }
+
+
+
 
     public async void readToFile(string filepath)
     {
@@ -41,8 +51,9 @@ public class Json
 
             if ((string)i["reference"] == u_ref)
             {
+                reff = (string)i["reference"];
                 phrase = (string)i["text"];
-                Console.Write(i["reference"]);
+                Console.Write(reff);
 
 
             }
