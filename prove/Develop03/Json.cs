@@ -1,27 +1,24 @@
 using System;
-using System.IO;
-using System.Net.Http;
-using System.Net.Http.Json;
-using System.Text.Json;
+// using System.IO;
+// using System.Net.Http;
+// using System.Net.Http.Json;
+// using System.Text.Json;
 using Newtonsoft.Json.Linq;
 
-// }
-
-//  "verses": [
-//         {
-//             "reference": "1 Nephi 1:1",
-//             "text": "I, Nephi, having been born of goodly parents, therefore I was taught somewhat in all the learning of my father; and having seen many afflictions in the course of my days, nevertheless, having been highly favored of the Lord in all my days; yea, having had a great knowledge of the goodness and the mysteries of God, therefore I make a record of my proceedings in my days."
-//         },
-//         {
-//             "reference": "1 Nephi 1:2",
-//             "text": "Yea, I make a record in the language of my father, which consists of the learning of the Jews and the language of the Egyptians."
-//         },
 
 public class Json
 {
 
+    public string phrase = "hi";
+
+    public string Getphrase()
+    {
+        return phrase;
+    }
+
     public async void readToFile(string filepath)
     {
+        // List<string> v_text = new List<string>();
 
         Console.WriteLine("Please enter a heading:");
         string u_heading = Console.ReadLine();
@@ -44,26 +41,27 @@ public class Json
 
             if ((string)i["reference"] == u_ref)
             {
-                List<string> v_text = new List<string>();
-                v_text.Add((string)i["text"]);
-                Console.WriteLine(string.Join(" ", v_text));
+                phrase = (string)i["text"];
+                Console.Write(i["reference"]);
+
 
             }
         }
-
-
-
-
 
 
     }
 }
 
 
+// foreach (var word in words)
+// {
+//     Console.Write($" {word} ");
+// }
 
 
-
-
+// string[] words = phrase.Split(" ");
+// v_text.Add((string)i["text"]);
+// Console.WriteLine(string.Join(" ", v_text));
 
 
 // JArray data = JArrary.Parse(File.ReadAllText(filepath));            

@@ -1,4 +1,5 @@
 using System;
+using System.Threading;
 // Console.ReadKey();
 // To read 1 key. You could then do something like this:
 
@@ -22,6 +23,7 @@ class Program
 {
     static void Main(string[] args)
     {
+        // List<string> original = new List<string>();
 
         int choice;
         Console.WriteLine("Welcome to the Scripture Program!");
@@ -37,32 +39,55 @@ class Program
                 string filepath = "https://raw.githubusercontent.com/bcbooks/scriptures-json/master/flat/book-of-mormon-flat.json";
                 Json bom = new Json();
                 bom.readToFile(filepath);
-
+                Mask mask = new Mask();
+                Thread.Sleep(5000);
+                mask.Setphrase(bom.Getphrase());
+                mask.mask();
             }
             else if (choice == 2)
             {
                 string filepath = "https://raw.githubusercontent.com/bcbooks/scriptures-json/master/flat/doctrine-and-covenants-flat.json";
                 Json dnc = new Json();
                 dnc.readToFile(filepath);
+                Mask mask = new Mask();
+                Thread.Sleep(5000);
+                mask.Setphrase(dnc.Getphrase());
+                mask.mask();
+
             }
             else if (choice == 3)
             {
                 string filepath = "https://raw.githubusercontent.com/bcbooks/scriptures-json/master/flat/new-testament-flat.json";
                 Json nt = new Json();
                 nt.readToFile(filepath);
+                Mask mask = new Mask();
+                Thread.Sleep(5000);
+                mask.Setphrase(nt.Getphrase());
+                mask.mask();
+
             }
             else if (choice == 4)
             {
                 string filepath = "https://raw.githubusercontent.com/bcbooks/scriptures-json/master/flat/old-testament-flat.json";
                 Json ot = new Json();
                 ot.readToFile(filepath);
+                Mask mask = new Mask();
+                Thread.Sleep(5000);
+                mask.Setphrase(ot.Getphrase());
+                mask.mask();
+
             }
             else if (choice == 5)
             {
                 string filepath = "https://raw.githubusercontent.com/bcbooks/scriptures-json/master/flat/pearl-of-great-price-flat.json";
                 Json pog = new Json();
                 pog.readToFile(filepath);
+                Mask mask = new Mask();
+                Thread.Sleep(5000);
+                mask.Setphrase(pog.Getphrase());
+                mask.mask();
+
             }
         } while (choice != 6);
-    } 
+    }
 }
