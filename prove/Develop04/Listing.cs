@@ -7,14 +7,18 @@ public class Listing : Base
 
     public void listing()
     {
+
         Console.Clear();
 
         Console.WriteLine("Welcome to the Listing Activity.");
         Console.WriteLine("\nThis activity will help you reflect on the good things in your life by having you list as many things as you can in a certain area.");
-        displayprompt(string[] _prompts);
-
     }
 
+    public void write()
+    {
+        Console.WriteLine("Please list as many items corresponding to the prompt: ");
+        Console.ReadLine();
+    }
 
 
 
