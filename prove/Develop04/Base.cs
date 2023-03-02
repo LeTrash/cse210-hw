@@ -2,7 +2,7 @@ public class Base
 {
     protected int time;
 
-    private string act = "";
+    public string act = "";
 
     protected int cot;
     public void GetSeconds()
@@ -55,7 +55,6 @@ public class Base
             }
         }
 
-
     }
 
     public void displaymessage(int choice)
@@ -78,9 +77,6 @@ public class Base
         Console.WriteLine($"You have completed {time} seconds of the {act} activity");
     }
 
-
-
-
     public void space()
     {
         Console.WriteLine("Once you are ready, press enter to continue.");
@@ -92,8 +88,6 @@ public class Base
         }
 
     }
-
-
 
 }
 
