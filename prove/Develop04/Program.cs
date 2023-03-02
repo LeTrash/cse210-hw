@@ -16,6 +16,8 @@ class Program
                 Breathing breath = new Breathing();
                 breath.breathing();
                 breath.GetSeconds();
+                breath.displaybreath();
+                breath.displaymessage(choice);
             }
             else if (choice == 2)
             {
@@ -24,6 +26,12 @@ class Program
                 reflect.GetSeconds();
                 string[] bones = reflect._prompts;
                 reflect.displayprompt(bones);
+                reflect.space();
+                string[] pond = reflect._ponder;
+                reflect.displayPonder(pond);
+                reflect.displaymessage(choice);
+
+
             }
             else if (choice == 3)
             {
@@ -35,6 +43,7 @@ class Program
                 list.displayCountDown();
                 list.write();
                 list.displaymessage(choice);
+
             }
 
 

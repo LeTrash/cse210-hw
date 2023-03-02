@@ -1,17 +1,18 @@
 public class Base
 {
-    private int time = 0;
+    protected int time;
 
     private string act = "";
+
+    protected int cot;
     public void GetSeconds()
     {
-        int time;
         Console.WriteLine("How long, in seconds, would you like for your session?");
         time = Convert.ToInt32(Console.ReadLine());
         Console.Clear();
     }
 
-    public string displayprompt(string[] _prompts)
+    public void displayprompt(string[] _prompts)
     {
         List<string> list = new List<string>();
 
@@ -23,7 +24,6 @@ public class Base
 
         Console.Write("Here is a suggested prompt: ");
         Console.WriteLine(prmt);
-        return prmt;
     }
 
     public void displayCountDown()
@@ -39,10 +39,10 @@ public class Base
         DateTime endTime = startTime.AddSeconds(12);
 
         List<string> animation = new List<string>();
-        animation.Add(" _(oᵔᴗᵔo)_    Loading   ");
-        animation.Add(" (/o^▽^o)/ ☆  Loading .  ");
-        animation.Add(" _(oᵔᴗᵔo)_    Loading . . ");
-        animation.Add("☆ \\(o^▽^o\\)   Loading . . .");
+        animation.Add(" _(oᵔᴗᵔo)_  ");
+        animation.Add(" (/o^▽^o)/ ☆  ");
+        animation.Add(" _(oᵔᴗᵔo)_    ");
+        animation.Add("☆ \\(o^▽^o\\) ");
 
         while (DateTime.Now < endTime)
         {
@@ -73,7 +73,7 @@ public class Base
             act = "Listing";
         }
 
-        Console.WriteLine("Great Job!");
+        Console.WriteLine("\rGreat Job!      ");
 
         Console.WriteLine($"You have completed {time} seconds of the {act} activity");
     }
@@ -81,12 +81,20 @@ public class Base
 
 
 
+    public void space()
+    {
+        Console.WriteLine("Once you are ready, press enter to continue.");
+        var userInput = Console.ReadKey();
+        while (userInput.Key != ConsoleKey.Enter)
+        {
+            Console.WriteLine("Once you are ready, press enter to continue.");
+            userInput = Console.ReadKey();
+        }
+
+    }
+
+
+
 }
 
-// 〇 ｏ｡
-//( ◡ ‿ ◡ )
-//( ◡ ｡ ◡ )
-//( ◡ ｏ ◡ )
-//( ˘ 〇 ˘ )
-//( ◡ ｏ ◡ )
-//( ◡ ｡ ◡ )
+

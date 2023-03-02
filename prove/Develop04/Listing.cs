@@ -16,9 +16,19 @@ public class Listing : Base
 
     public void write()
     {
-        Console.WriteLine("Please list as many items corresponding to the prompt: ");
-        Console.ReadLine();
+        DateTime startTime = DateTime.Now;
+        DateTime endTime = startTime.AddSeconds(time);
+
+        Console.WriteLine("Please list as many items corresponding to the prompt above ");
+        while (DateTime.Now < endTime)
+        {
+            ++cot;
+            Console.ReadLine();
+        }
+        Console.Clear();
+        Console.WriteLine($"You wrote {cot} items.");
     }
+
 
 
 
