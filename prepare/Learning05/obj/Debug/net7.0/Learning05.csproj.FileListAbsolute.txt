@@ -1,0 +1,15 @@
+/Users/jessicaclark/Documents/7th Semester/programing classes/cse210-hw/prepare/Learning05/bin/Debug/net7.0/Learning05
+/Users/jessicaclark/Documents/7th Semester/programing classes/cse210-hw/prepare/Learning05/bin/Debug/net7.0/Learning05.deps.json
+/Users/jessicaclark/Documents/7th Semester/programing classes/cse210-hw/prepare/Learning05/bin/Debug/net7.0/Learning05.runtimeconfig.json
+/Users/jessicaclark/Documents/7th Semester/programing classes/cse210-hw/prepare/Learning05/bin/Debug/net7.0/Learning05.dll
+/Users/jessicaclark/Documents/7th Semester/programing classes/cse210-hw/prepare/Learning05/bin/Debug/net7.0/Learning05.pdb
+/Users/jessicaclark/Documents/7th Semester/programing classes/cse210-hw/prepare/Learning05/obj/Debug/net7.0/Learning05.csproj.AssemblyReference.cache
+/Users/jessicaclark/Documents/7th Semester/programing classes/cse210-hw/prepare/Learning05/obj/Debug/net7.0/Learning05.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jessicaclark/Documents/7th Semester/programing classes/cse210-hw/prepare/Learning05/obj/Debug/net7.0/Learning05.AssemblyInfoInputs.cache
+/Users/jessicaclark/Documents/7th Semester/programing classes/cse210-hw/prepare/Learning05/obj/Debug/net7.0/Learning05.AssemblyInfo.cs
+/Users/jessicaclark/Documents/7th Semester/programing classes/cse210-hw/prepare/Learning05/obj/Debug/net7.0/Learning05.csproj.CoreCompileInputs.cache
+/Users/jessicaclark/Documents/7th Semester/programing classes/cse210-hw/prepare/Learning05/obj/Debug/net7.0/Learning05.dll
+/Users/jessicaclark/Documents/7th Semester/programing classes/cse210-hw/prepare/Learning05/obj/Debug/net7.0/refint/Learning05.dll
+/Users/jessicaclark/Documents/7th Semester/programing classes/cse210-hw/prepare/Learning05/obj/Debug/net7.0/Learning05.pdb
+/Users/jessicaclark/Documents/7th Semester/programing classes/cse210-hw/prepare/Learning05/obj/Debug/net7.0/Learning05.genruntimeconfig.cache
+/Users/jessicaclark/Documents/7th Semester/programing classes/cse210-hw/prepare/Learning05/obj/Debug/net7.0/ref/Learning05.dll

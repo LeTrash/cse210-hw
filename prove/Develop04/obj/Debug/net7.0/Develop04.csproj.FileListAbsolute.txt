@@ -1,0 +1,15 @@
+/Users/jessicaclark/Documents/7th Semester/programing classes/cse210-hw/prove/Develop04/bin/Debug/net7.0/Develop04
+/Users/jessicaclark/Documents/7th Semester/programing classes/cse210-hw/prove/Develop04/bin/Debug/net7.0/Develop04.deps.json
+/Users/jessicaclark/Documents/7th Semester/programing classes/cse210-hw/prove/Develop04/bin/Debug/net7.0/Develop04.runtimeconfig.json
+/Users/jessicaclark/Documents/7th Semester/programing classes/cse210-hw/prove/Develop04/bin/Debug/net7.0/Develop04.dll
+/Users/jessicaclark/Documents/7th Semester/programing classes/cse210-hw/prove/Develop04/bin/Debug/net7.0/Develop04.pdb
+/Users/jessicaclark/Documents/7th Semester/programing classes/cse210-hw/prove/Develop04/obj/Debug/net7.0/Develop04.csproj.AssemblyReference.cache
+/Users/jessicaclark/Documents/7th Semester/programing classes/cse210-hw/prove/Develop04/obj/Debug/net7.0/Develop04.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jessicaclark/Documents/7th Semester/programing classes/cse210-hw/prove/Develop04/obj/Debug/net7.0/Develop04.AssemblyInfoInputs.cache
+/Users/jessicaclark/Documents/7th Semester/programing classes/cse210-hw/prove/Develop04/obj/Debug/net7.0/Develop04.AssemblyInfo.cs
+/Users/jessicaclark/Documents/7th Semester/programing classes/cse210-hw/prove/Develop04/obj/Debug/net7.0/Develop04.csproj.CoreCompileInputs.cache
+/Users/jessicaclark/Documents/7th Semester/programing classes/cse210-hw/prove/Develop04/obj/Debug/net7.0/Develop04.dll
+/Users/jessicaclark/Documents/7th Semester/programing classes/cse210-hw/prove/Develop04/obj/Debug/net7.0/refint/Develop04.dll
+/Users/jessicaclark/Documents/7th Semester/programing classes/cse210-hw/prove/Develop04/obj/Debug/net7.0/Develop04.pdb
+/Users/jessicaclark/Documents/7th Semester/programing classes/cse210-hw/prove/Develop04/obj/Debug/net7.0/Develop04.genruntimeconfig.cache
+/Users/jessicaclark/Documents/7th Semester/programing classes/cse210-hw/prove/Develop04/obj/Debug/net7.0/ref/Develop04.dll

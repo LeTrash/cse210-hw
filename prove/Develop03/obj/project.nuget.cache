@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "XmcJyuOBQSjs+5X/ZRqxf8BHF9bhxnojBzU9h8LP9IKer53M1IubSUbCpuHCM8SINUtGJ6f9P8o4beRTtaZBHg==",
+  "success": true,
+  "projectFilePath": "/Users/jessicaclark/Documents/7th Semester/programing classes/cse210-hw/prove/Develop03/Develop03.csproj",
+  "expectedPackageFiles": [
+    "/Users/jessicaclark/.nuget/packages/newtonsoft.json/13.0.2/newtonsoft.json.13.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

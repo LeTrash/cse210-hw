@@ -1,0 +1,17 @@
+/Users/jessicaclark/Documents/7th Semester/programing classes/cse210-hw/prove/Develop03/bin/Debug/net7.0/Develop03
+/Users/jessicaclark/Documents/7th Semester/programing classes/cse210-hw/prove/Develop03/bin/Debug/net7.0/Develop03.deps.json
+/Users/jessicaclark/Documents/7th Semester/programing classes/cse210-hw/prove/Develop03/bin/Debug/net7.0/Develop03.runtimeconfig.json
+/Users/jessicaclark/Documents/7th Semester/programing classes/cse210-hw/prove/Develop03/bin/Debug/net7.0/Develop03.dll
+/Users/jessicaclark/Documents/7th Semester/programing classes/cse210-hw/prove/Develop03/bin/Debug/net7.0/Develop03.pdb
+/Users/jessicaclark/Documents/7th Semester/programing classes/cse210-hw/prove/Develop03/obj/Debug/net7.0/Develop03.csproj.AssemblyReference.cache
+/Users/jessicaclark/Documents/7th Semester/programing classes/cse210-hw/prove/Develop03/obj/Debug/net7.0/Develop03.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jessicaclark/Documents/7th Semester/programing classes/cse210-hw/prove/Develop03/obj/Debug/net7.0/Develop03.AssemblyInfoInputs.cache
+/Users/jessicaclark/Documents/7th Semester/programing classes/cse210-hw/prove/Develop03/obj/Debug/net7.0/Develop03.AssemblyInfo.cs
+/Users/jessicaclark/Documents/7th Semester/programing classes/cse210-hw/prove/Develop03/obj/Debug/net7.0/Develop03.csproj.CoreCompileInputs.cache
+/Users/jessicaclark/Documents/7th Semester/programing classes/cse210-hw/prove/Develop03/obj/Debug/net7.0/Develop03.dll
+/Users/jessicaclark/Documents/7th Semester/programing classes/cse210-hw/prove/Develop03/obj/Debug/net7.0/refint/Develop03.dll
+/Users/jessicaclark/Documents/7th Semester/programing classes/cse210-hw/prove/Develop03/obj/Debug/net7.0/Develop03.pdb
+/Users/jessicaclark/Documents/7th Semester/programing classes/cse210-hw/prove/Develop03/obj/Debug/net7.0/Develop03.genruntimeconfig.cache
+/Users/jessicaclark/Documents/7th Semester/programing classes/cse210-hw/prove/Develop03/obj/Debug/net7.0/ref/Develop03.dll
+/Users/jessicaclark/Documents/7th Semester/programing classes/cse210-hw/prove/Develop03/bin/Debug/net7.0/Newtonsoft.Json.dll
+/Users/jessicaclark/Documents/7th Semester/programing classes/cse210-hw/prove/Develop03/obj/Debug/net7.0/Develop03.csproj.CopyComplete

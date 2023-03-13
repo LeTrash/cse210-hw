@@ -1,0 +1,15 @@
+/Users/jessicaclark/Documents/cse210/cse210-hw/sandbox/Sandbox/bin/Debug/net7.0/Sandbox
+/Users/jessicaclark/Documents/cse210/cse210-hw/sandbox/Sandbox/bin/Debug/net7.0/Sandbox.deps.json
+/Users/jessicaclark/Documents/cse210/cse210-hw/sandbox/Sandbox/bin/Debug/net7.0/Sandbox.runtimeconfig.json
+/Users/jessicaclark/Documents/cse210/cse210-hw/sandbox/Sandbox/bin/Debug/net7.0/Sandbox.dll
+/Users/jessicaclark/Documents/cse210/cse210-hw/sandbox/Sandbox/bin/Debug/net7.0/Sandbox.pdb
+/Users/jessicaclark/Documents/cse210/cse210-hw/sandbox/Sandbox/obj/Debug/net7.0/Sandbox.csproj.AssemblyReference.cache
+/Users/jessicaclark/Documents/cse210/cse210-hw/sandbox/Sandbox/obj/Debug/net7.0/Sandbox.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jessicaclark/Documents/cse210/cse210-hw/sandbox/Sandbox/obj/Debug/net7.0/Sandbox.AssemblyInfoInputs.cache
+/Users/jessicaclark/Documents/cse210/cse210-hw/sandbox/Sandbox/obj/Debug/net7.0/Sandbox.AssemblyInfo.cs
+/Users/jessicaclark/Documents/cse210/cse210-hw/sandbox/Sandbox/obj/Debug/net7.0/Sandbox.csproj.CoreCompileInputs.cache
+/Users/jessicaclark/Documents/cse210/cse210-hw/sandbox/Sandbox/obj/Debug/net7.0/Sandbox.dll
+/Users/jessicaclark/Documents/cse210/cse210-hw/sandbox/Sandbox/obj/Debug/net7.0/refint/Sandbox.dll
+/Users/jessicaclark/Documents/cse210/cse210-hw/sandbox/Sandbox/obj/Debug/net7.0/Sandbox.pdb
+/Users/jessicaclark/Documents/cse210/cse210-hw/sandbox/Sandbox/obj/Debug/net7.0/Sandbox.genruntimeconfig.cache
+/Users/jessicaclark/Documents/cse210/cse210-hw/sandbox/Sandbox/obj/Debug/net7.0/ref/Sandbox.dll

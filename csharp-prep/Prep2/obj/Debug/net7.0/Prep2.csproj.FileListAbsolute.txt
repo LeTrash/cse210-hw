@@ -1,0 +1,15 @@
+/Users/jessicaclark/Documents/7th Semester/programing classes/cse210-hw/csharp-prep/Prep2/bin/Debug/net7.0/Prep2
+/Users/jessicaclark/Documents/7th Semester/programing classes/cse210-hw/csharp-prep/Prep2/bin/Debug/net7.0/Prep2.deps.json
+/Users/jessicaclark/Documents/7th Semester/programing classes/cse210-hw/csharp-prep/Prep2/bin/Debug/net7.0/Prep2.runtimeconfig.json
+/Users/jessicaclark/Documents/7th Semester/programing classes/cse210-hw/csharp-prep/Prep2/bin/Debug/net7.0/Prep2.dll
+/Users/jessicaclark/Documents/7th Semester/programing classes/cse210-hw/csharp-prep/Prep2/bin/Debug/net7.0/Prep2.pdb
+/Users/jessicaclark/Documents/7th Semester/programing classes/cse210-hw/csharp-prep/Prep2/obj/Debug/net7.0/Prep2.csproj.AssemblyReference.cache
+/Users/jessicaclark/Documents/7th Semester/programing classes/cse210-hw/csharp-prep/Prep2/obj/Debug/net7.0/Prep2.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jessicaclark/Documents/7th Semester/programing classes/cse210-hw/csharp-prep/Prep2/obj/Debug/net7.0/Prep2.AssemblyInfoInputs.cache
+/Users/jessicaclark/Documents/7th Semester/programing classes/cse210-hw/csharp-prep/Prep2/obj/Debug/net7.0/Prep2.AssemblyInfo.cs
+/Users/jessicaclark/Documents/7th Semester/programing classes/cse210-hw/csharp-prep/Prep2/obj/Debug/net7.0/Prep2.csproj.CoreCompileInputs.cache
+/Users/jessicaclark/Documents/7th Semester/programing classes/cse210-hw/csharp-prep/Prep2/obj/Debug/net7.0/Prep2.dll
+/Users/jessicaclark/Documents/7th Semester/programing classes/cse210-hw/csharp-prep/Prep2/obj/Debug/net7.0/refint/Prep2.dll
+/Users/jessicaclark/Documents/7th Semester/programing classes/cse210-hw/csharp-prep/Prep2/obj/Debug/net7.0/Prep2.pdb
+/Users/jessicaclark/Documents/7th Semester/programing classes/cse210-hw/csharp-prep/Prep2/obj/Debug/net7.0/Prep2.genruntimeconfig.cache
+/Users/jessicaclark/Documents/7th Semester/programing classes/cse210-hw/csharp-prep/Prep2/obj/Debug/net7.0/ref/Prep2.dll
