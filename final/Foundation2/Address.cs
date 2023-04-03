@@ -1,28 +1,48 @@
 using System;
-
+// The address contains a string for the street address, the city, state/province, and country.
+// The address should have a method that can return whether it is in the USA or not.
+// The address should have a method to return a string all of its fields together in one string (with newline characters where appropriate)
 class Address
 {
 
-    public string State = "";
-    public string ZipCode = "";
-    public string Street = "";
-    public string City = "";
-    public string Country = "";
+    private string zipCode;
+    private string street;
+    private string city;
+    private string state;
+    private string country;
 
-    public string IsUSA(String Country)
+    public Address(string street, string city, string state, string country)
     {
-        if (Country == 'USA')
-        {
-            return true;
-        }
-        else
-        {
-            return false;
-        }
+        this.street = street;
+        this.city = city;
+        this.state = state;
+        this.country = country;
+    }
+
+    public string Street { get { return street; } }
+    public string City { get { return city; } }
+    public string State { get { return state; } }
+    public string Country { get { return country; } }
+
+    // public Boolean IsUSA(String Country)
+    // {
+    //     if (Country == "USA")
+    //     {
+    //         return false;
+    //     }
+    //     else
+    //     {
+    //         return false;
+    //     }
+    // }
+
+    public bool IsInUSA()
+    {
+        return country == "USA";
     }
 
     public void DisplayAdd()
     {
-        Console.WriteLine($"{Street}, {City}, {State}, {ZipCode}");
+        Console.WriteLine($"{street}, {city}, {state}, {zipCode}");
     }
 }
