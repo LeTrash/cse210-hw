@@ -5,7 +5,6 @@ using System;
 class Address
 {
 
-    private string zipCode;
     private string street;
     private string city;
     private string state;
@@ -41,8 +40,8 @@ class Address
         return country == "USA";
     }
 
-    public void DisplayAdd()
+    public string GetAddressString()
     {
-        Console.WriteLine($"{street}, {city}, {state}, {zipCode}");
+        return $"{street}, {city}, {state}";
     }
 }

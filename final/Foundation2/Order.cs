@@ -8,13 +8,55 @@ using System.Linq;
 
 class Order
 {
-    public List<Order> Custo = new List<Order>();
-    public List<Product> _prod = new List<Product>();
-    public int sum;
+    public Customer customer;
+    private List<Product> products;
 
-    public void subtotal()
+    public Order(Customer customer, List<Product> products)
     {
-        sum = _prod.Sum(x => Convert.ToInt32(x));
+        this.products = products;
+        this.customer = customer;
     }
+
+
+    public void AddProduct(Product product)
+    {
+        products.Add(product);
+    }
+
+    public double CalculateTotalCost()
+    {
+        double totalCost = 0;
+        foreach (Product product in products)
+        {
+            totalCost += product.Price;
+        }
+        if (customer.Address.IsInUSA())
+        {
+            totalCost += 5;
+        }
+        else
+        {
+            totalCost += 35;
+        }
+        return totalCost;
+    }
+
+    public string GetPackingLabel()
+    {
+        string packingLabel = "";
+        foreach (Product product in products)
+        {
+            packingLabel += product.Name + "(ID: " + product.Id + ")" + "\n";
+        }
+        return packingLabel;
+    }
+
+    public string GetShippingLabel()
+    {
+        string shippingLabel = customer.Name + "\n" + customer.Address.GetAddressString();
+        return shippingLabel;
+    }
+
+
 
 }
