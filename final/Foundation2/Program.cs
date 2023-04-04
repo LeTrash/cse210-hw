@@ -10,14 +10,14 @@ class Program
         Product p2 = new Product("Potatoes", "P435", 6.99, 3);
         Product p3 = new Product("Beef Jerk", "b342", 7.99, 10);
 
-        Address a1 = new Address(" 123 Main St", "Anytown", "CA", "USA");
+        Address a1 = new Address("123 Main St", "Anytown", "CA", "USA");
         Customer c1 = new Customer("John Doe", a1);
-        Address a2 = new Address(" 123 Main St", "New York", "NY", "USA");
+        Address a2 = new Address("456 Broadway", "New York", "NY", "USA");
         Customer c2 = new Customer("Jane Doe", a2);
         Address a3 = new Address("789 High St", "Toronto", "ON", "Canada");
         Customer c3 = new Customer("Boby Jone", a3);
 
-        Order o1 = new Order();
+        Order o1 = new Order(c1);
         o1.AddProduct(p1);
         o1.AddProduct(p2);
         Console.WriteLine(o1.GetPackingLabel());
@@ -30,6 +30,13 @@ class Program
         Console.WriteLine(o2.GetPackingLabel());
         Console.WriteLine(o2.GetShippingLabel());
         Console.WriteLine($"Total cost: {o2.CalculateTotalCost():C}");
+
+        Order o3 = new Order(c3);
+        o3.AddProduct(p1);
+        o3.AddProduct(p3);
+        Console.WriteLine(o3.GetPackingLabel());
+        Console.WriteLine(o3.GetShippingLabel());
+        Console.WriteLine($"Total cost: {o3.CalculateTotalCost():C}");
 
     }
 }

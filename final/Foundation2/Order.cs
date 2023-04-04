@@ -11,9 +11,13 @@ class Order
     public Customer customer;
     private List<Product> products;
 
-    public Order(Customer customer, List<Product> products)
+    public Order()
     {
-        this.products = products;
+        products = new List<Product>();
+    }
+    public Order(Customer customer)
+    {
+        this.products = new List<Product>();
         this.customer = customer;
     }
 
@@ -46,7 +50,7 @@ class Order
         string packingLabel = "";
         foreach (Product product in products)
         {
-            packingLabel += product.Name + "(ID: " + product.Id + ")" + "\n";
+            packingLabel += product.Name + "(ID: " + product.Id + ")" + " \n";
         }
         return packingLabel;
     }
